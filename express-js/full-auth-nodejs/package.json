@@ -1,0 +1,28 @@
+{
+  "name": "full-auth-nodejs",
+  "version": "1.0.0",
+  "description": "\u0016Node.js REST API |Login |Register |Forgot Password |Email Activation |Google Login|Facebook Login ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-jwt": "^7.7.5",
+    "express-validator": "^6.14.2",
+    "google-auth-library": "^8.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "loadash": "^1.0.0",
+    "mongoose": "^6.6.5",
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.2.10",
+    "nodemon": "^2.0.20"
+  }
+}
